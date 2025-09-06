@@ -1,0 +1,11 @@
+.otpcontainer{
+    display:flex;
+}
+.otpinput{
+    height:40px;
+    width:40px;
+    margin:5px;
+    text-align: center;
+    border-radius:15.6px;
+    border-color: rgb(179, 174, 174);
+}

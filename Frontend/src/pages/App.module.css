@@ -1,0 +1,77 @@
+
+.back{
+  background-color:#184594;
+  width:100%;
+  padding-top:15vh;
+  text-align: center;
+  color:black;
+  font-Family:sans-serif;
+}
+.box{
+  background-color:white;
+  font-Family:sans-serif;
+  border-radius: 57.6px 57.6px 0 0;
+  min-height:80vh;
+  width:100%;
+  text-align: center;
+  color:black;
+  padding:30px;
+  box-sizing: border-box;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.verify{
+  font-size:2rem;
+  align-self: flex-start;
+  text-align:left;
+  width:100%;
+  margin:0px;
+}
+.wrapper{
+  position: relative;
+  width: 100%;
+  margin:10px; 
+}
+.divider{
+  border-top: 2px solid gray; 
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.label{
+  position: absolute;
+  top:20px;
+  left:45%;
+  text-align:center;
+  color:black;
+  font-size:1rem;
+  background-color: white;
+  padding:5px;
+}
+.forgetpassword{
+  color:rgb(4, 111, 177);
+  font-size: 0.9rem;
+  align-self: flex-end;
+  cursor: pointer;
+  margin:10px;
+}
+.forgetpassword:hover{
+  text-decoration: underline;
+}
+.greytext1{
+  font-size:0.9rem;
+  color:gray;
+  align-self: flex-start;
+  margin:0px;
+}
+.greytext2{
+  font-size:0.9rem;
+  color:gray;
+  margin:30px;
+}
+.blacktext{
+  color:black;
+  font-size:0.9rem;
+}
